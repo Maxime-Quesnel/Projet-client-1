@@ -48,7 +48,7 @@ h6 {
   border-radius: 3px;
   cursor: pointer;
   color: #fff;
-  display: inline-block;
+  position: relative;
   background: transparent;
   font-size: 15px;
   font-weight: 600;
@@ -59,8 +59,19 @@ h6 {
   background-color: rgba(0, 0, 0, 0.437);
 }
 
-.fa-arrow-right {
-  margin-left: 30px;
+.btn-website-chartre::after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 10px;
+  font-size: 25px;
+  right: -20px;
+  transition: 0.2s;
+}
+
+.btn-website-chartre:hover:after {
+  opacity: 1;
+  right: 10px;
 }
 
 .btn-website-chartre:focus {
