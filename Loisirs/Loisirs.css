@@ -20,6 +20,7 @@ img:hover  {
     display: flex;
     justify-content: space-between;
     padding:30px;
+
     
     
     
@@ -31,11 +32,12 @@ img:hover  {
     height: 100%;
     background-color: #fff;
     box-shadow: 6px 2px 25px 0px rgba(0,0,0,0.75);
+    margin-right: 10px;
     
     
 }
 
-h2 {
+.sous-titre {
     text-align: center;
 }
 
@@ -49,7 +51,6 @@ h1 {
     padding-right: 10px;
 }
 .titre {
-
     padding-top: 100px;
 }
 @media screen and (min-width: 0px) and (max-width: 950px) {
