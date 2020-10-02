@@ -19,6 +19,17 @@
       integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
     <title>Document</title>
   </head>
 
@@ -124,6 +135,7 @@
         <!--// bloc 3-->
       </div>
     </div>
+    <!--Banner-->
     <div class="container-banner">
       <div class="conatiner-info-banner">
         <p class="number-banner">38 875</p>
@@ -138,7 +150,14 @@
         <p class="content-text-banner">Code postal</p>
       </div>
     </div>
+    <!--//Banner-->
+
+    <div class="container-map">
+      <div id="mapid"></div>
+    </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="./Navigation.js"></script>
+    <script src="./map.js"></script>
   </body>
 </html>

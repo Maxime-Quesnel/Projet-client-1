@@ -65,5 +65,3 @@ window.onscroll = function() {
     }
   }
 };
-
-console.log(Date.now());
