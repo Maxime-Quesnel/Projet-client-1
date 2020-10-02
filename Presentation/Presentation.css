@@ -48,7 +48,6 @@ h6 {
   border-radius: 3px;
   cursor: pointer;
   color: #fff;
-  position: relative;
   background: transparent;
   font-size: 15px;
   font-weight: 600;
@@ -57,21 +56,6 @@ h6 {
   animation-delay: 0.7s;
   border: 1px solid #fff;
   background-color: rgba(0, 0, 0, 0.437);
-}
-
-.btn-website-chartre::after {
-  content: '»';
-  position: absolute;
-  opacity: 0;
-  top: 10px;
-  font-size: 25px;
-  right: -20px;
-  transition: 0.2s;
-}
-
-.btn-website-chartre:hover:after {
-  opacity: 1;
-  right: 10px;
 }
 
 .btn-website-chartre:focus {
