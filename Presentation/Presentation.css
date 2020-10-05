@@ -355,11 +355,11 @@ h6 {
   color: #fff;
   font-weight: bold;
   letter-spacing: 2px;
-  animation: neon 0.8s ease-in-out infinite alternate;
+  /*animation: neon 0.8s ease-in-out infinite alternate;*/
   font-size: 22px;
 }
 
-@keyframes neon {
+/*@keyframes neon {
   from {
     text-shadow: 0 0 20px rgba(202, 228, 225, 0.92),
       0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(30, 132, 242, 0.52),
@@ -372,4 +372,50 @@ h6 {
       0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88),
       0 0 60px rgba(30, 132, 242, 1);
   }
+}
+
+/* Map */
+
+#mapid {
+  height: 500px;
+  display: none;
+  position: relative;
+}
+
+.map-none {
+  height: 500px;
+  display: block;
+  background-color: #7f85a8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.container-map {
+  padding: 20px;
+}
+
+.text-map-none {
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.ul-nav-map {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.nav-map {
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+}
+
+.nav-map-items {
+  font-weight: bold;
+  text-transform: uppercase;
 }
