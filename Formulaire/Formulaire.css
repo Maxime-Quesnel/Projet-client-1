@@ -1,0 +1,147 @@
+    body, h1, h3, input { 
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    color: #666;
+    }
+    
+    h1 {
+    font-size: 28px;
+    }
+
+    .principal {
+    margin-top: 100px;
+    }
+
+    .main-block, .info {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .main-block {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+    background: url("/uploads/media/default/0001/01/49bff73f282c2c21f3341f1fe457fe35337b1792.jpeg") no-repeat center;
+    background-size: cover;
+    }
+
+    .formulaire {
+    width: 90%; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px; 
+    border: solid 1px #ccc;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    background: #ebebeb; 
+    margin: auto;
+    }
+
+    .info-item {
+    width: 100%;
+    }
+    
+    input {
+    width: calc(100% - 57px);
+    height: 36px;
+    padding-left: 10px; 
+    margin: 0 0 12px -5px;
+    border-radius: 0 5px 5px 0;
+    border: solid 1px #cbc9c9;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    background: #fff; 
+    }
+
+    .icon {
+    padding: 9px 15px;
+    margin-top: -1px;
+    border-radius: 5px 0 0 5px;
+    border: solid 0px #cbc9c9;
+    background: #f76c6b;
+    color: #fff;
+    }
+
+    .rating a {
+        display: flex;
+        flex-direction: column;
+        color: #aaa;
+        text-decoration: none;
+        font-size: 1em;
+        transition: color .4s;
+     }
+
+     .rating a:hover,
+     .rating a:focus,
+     .rating a:hover ~ a,
+     .rating a:focus ~ a {
+        color: orange;
+        cursor: pointer;
+     }
+   
+    input[type=radio]:checked + label:after {
+    opacity: 1;
+    }
+    textarea {
+    width: 99%;
+    }
+
+    .eval {
+    align-content: center;
+    }
+
+    .commentarea {
+        display: flex;
+        align-items: center;
+        width: 65%;
+        border-radius: 5px; 
+        border: solid 1px #ccc;
+        box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+        
+    }
+
+    .commentglobal {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .star {
+        display: flex;
+        align-items: center;
+        color: #aaa;
+        text-decoration: none;
+        font-size: 2em;
+    }
+
+    .submit {
+    padding: 8px;
+    border-radius: 5px; 
+    border: none;
+    background: #f76c6b;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    }
+
+    .submit:hover {
+    background: red;
+    }
+
+    .grade-type div {
+    display: block;
+    margin: 6px 0;
+    }
+
+    @media (min-width: 568px) {
+    .info {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    }
+    .info-item {
+    width: 48%;
+    }
+    }
