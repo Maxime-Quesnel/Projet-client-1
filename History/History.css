@@ -12,7 +12,7 @@ margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 60px;
     color:#f76c6b;
     font-weight: bold;
     font-style: italic;  
@@ -26,15 +26,76 @@ margin: 0;
 }
 
 .cathédrale {
-    height: 500px;
-    text-align: left;
-    color:black;   
+    
+    color:black;  
+}
+.box-cathedrale {
+    display: flex;
+    justify-content: space-around;
+    height: 3000px;
+    width: 100%;
+}
+
+.card-cathédrale1 {
+    display: flex;
+    width: 420px;
+    height: 270px;
+    margin: 10px;
+    border: 4px solid #f76c6b;
+    background-color:#F5F5F5;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px 0 #A9A9A9;
+    float: left;
+}
+
+.cathédrale-text {
+  text-align: center;
+  display: flex;
+  padding-top: 50px;
+}
+
+.card-cathédrale2 {
+    display: flex;
+    width: 420px;
+    height: 270px;
+    margin: 10px;
+    border: 4px solid #f76c6b;
+    background-color:#F5F5F5;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px 0 #A9A9A9;
+    float: right;
+}
+
+.box-cathédralesuite {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.box-personnages{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.box-galerie {
+  margin: 10px;
+  
+
 }
 
 
+
+/*
 .card-sud {
   width: 100%;
   height: 500px;
+}
+
+.cathédrale-suite {
+  display: inline-block;
+  justify-content: space-around;
+  width : 600px;
 }
 
 /*
