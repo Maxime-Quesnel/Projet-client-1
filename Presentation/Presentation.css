@@ -32,6 +32,7 @@ h6 {
   width: 100%;
   color: #ffffff;
   transition: all 0.3s ease 0s;
+  z-index: 200;
   position: fixed;
 }
 
@@ -380,6 +381,7 @@ h6 {
   height: 500px;
   display: none;
   position: relative;
+  z-index: 2;
 }
 
 .map-none {
