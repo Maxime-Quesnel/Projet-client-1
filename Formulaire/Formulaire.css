@@ -12,7 +12,7 @@
     }
 
     .principal {
-    margin-top: 100px;
+    margin-top: 120px;
     }
 
     .main-block, .info {
@@ -30,7 +30,7 @@
     }
 
     .formulaire {
-    width: 90%; 
+    width: 70%; 
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px; 
@@ -40,11 +40,25 @@
     margin: auto;
     }
 
+    .newsletter {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    }
+
+    .checkbox {
+        margin-top: 2px;
+    }
+
+    .divcheckbox {
+        margin-left: 10px;
+    }
+
     .info-item {
     width: 100%;
     }
     
-    input {
+    .input {
     width: calc(100% - 57px);
     height: 36px;
     padding-left: 10px; 
@@ -56,7 +70,7 @@
     }
 
     .icon {
-    padding: 9px 15px;
+    padding: 9px 14px;
     margin-top: -1px;
     border-radius: 5px 0 0 5px;
     border: solid 0px #cbc9c9;
@@ -64,23 +78,30 @@
     color: #fff;
     }
 
+    .rating{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+        margin: 30px 0;
+    }
+
     .rating a {
         display: flex;
-        flex-direction: column;
+        justify-content: space-evenly;
         color: #aaa;
         text-decoration: none;
-        font-size: 1em;
+        font-size: 2em;
         transition: color .4s;
-     }
+    }
 
-     .rating a:hover,
-     .rating a:focus,
-     .rating a:hover ~ a,
-     .rating a:focus ~ a {
+    .rating a:hover,
+    .rating a:focus,
+    .rating a:hover ~ a,
+    .rating a:focus ~ a {
         color: orange;
         cursor: pointer;
-     }
-   
+    }
+
     input[type=radio]:checked + label:after {
     opacity: 1;
     }
@@ -95,6 +116,7 @@
     .commentarea {
         display: flex;
         align-items: center;
+        justify-content: center;
         width: 65%;
         border-radius: 5px; 
         border: solid 1px #ccc;
@@ -104,9 +126,14 @@
 
     .commentglobal {
         display: flex;
-        justify-content: space-around;
-        width: 100%;
-        padding: 20px;
+        justify-content: space-between;
+        width: 90%;
+        padding: 5% 20px;
+    }
+
+    .commentname {
+        display: flex;
+        align-items: center;
     }
 
     .star {
@@ -118,6 +145,9 @@
     }
 
     .submit {
+        margin: auto;
+        display: flex;
+        justify-content: center;
     padding: 8px;
     border-radius: 5px; 
     border: none;
@@ -128,12 +158,13 @@
     }
 
     .submit:hover {
-    background: red;
+    background: #f76b6bb6;
     }
 
     .grade-type div {
-    display: block;
-    margin: 6px 0;
+    /* display: flex; */
+    text-align: -webkit-center;
+    /* margin: 30px 0; */
     }
 
     @media (min-width: 568px) {

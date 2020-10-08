@@ -1,5 +1,5 @@
 .navbar {
-    background-color: transparent;
+    background-color: white;
     position: absolute;
     width: 100%;
     color: #ffffff;
@@ -74,7 +74,7 @@
     outline: none;
   }
   .navbar {
-    background-color: transparent;
+    background-color: white;
     position: absolute;
     width: 100%;
     color: #ffffff;
