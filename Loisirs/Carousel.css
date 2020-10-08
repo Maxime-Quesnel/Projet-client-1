@@ -1,0 +1,49 @@
+
+.slider {
+    width: 1000px;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 6px 2px 25px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    z-index: 1;
+    
+
+}
+
+.slide {
+    float: left;
+    width: calc(100% *5);
+    animation: glisse 20s infinite;
+    display: flex;
+    justify-items: center;
+    background-color: #DED8D8;
+
+    
+
+
+}
+
+
+
+
+@keyframes glisse {
+
+    0% {
+        transform: translateX(0);
+    }
+    30% {
+        transform: translateX(-1015px);
+    }
+    50% {
+        transform: translateX(-2020px);
+    }
+    70% {
+        transform: translateX(-3030px);
+    }
+    90% {
+        transform: translateX(-4040px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

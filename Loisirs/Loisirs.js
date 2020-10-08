@@ -50,3 +50,4 @@ burgerbtn.addEventListener('click', () => {
     isVisible = false;
   }
 });
+
