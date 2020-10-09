@@ -33,6 +33,7 @@ h6 {
   color: #ffffff;
   transition: all 0.3s ease 0s;
   position: fixed;
+  z-index: 786;
 }
 
 .conatiner-btn-header {
@@ -380,6 +381,7 @@ h6 {
   height: 500px;
   display: none;
   position: relative;
+  z-index: 7;
 }
 
 .map-none {
